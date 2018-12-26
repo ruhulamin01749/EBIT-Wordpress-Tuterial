@@ -1,0 +1,55 @@
+/*
+Theme Name: EbitHTML
+Author: Ruhul Amin
+Author URI: https://wordpress.org/
+Description: My First Themes with Ebit Tuterial.
+Version: 1.0
+Text Domain: Ebit
+Tags: Test, Ebit, Theme
+
+*/
+
+.navbar-default .navbar-nav > .current_page_item > a, .navbar-default .navbar-nav > .current_page_item > a:hover, .navbar-default .navbar-nav > .current_page_item > a:focus {
+    color: #fff;
+    background-color: #6BAAA8;
+}
+.current_page_item {
+    background: #74B9B9 !important;
+    color: white;
+}
+.pull-right span{
+	margin-left: 5px;
+}
+.label a{
+    margin-left: 2px;
+    color: white;
+}
+.screen-reader-text{
+	display: none;
+}
+.nav-links{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.nav-links .page-numbers{
+	background: #fff none repeat scroll 0 0;
+	border-left: 1px solid #ddd;
+	display: block;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	width: 40px;
+}
+.nav-links .page-numbers:first-child{
+	border-left: 0 none;
+}
+.page-numbers.current, .page-numbers.current:hover{
+	background: #428bca none repeat scroll 0 0;
+	color: #fff;
+}
+.page-number:hover{
+	background: #eee none repeat scroll 0 0;
+}
+
+
